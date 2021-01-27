@@ -1,0 +1,34 @@
+
+/* Parte do mapa */
+.map-container {
+    margin-top: 6.4rem;
+    background: #e6f7fb;
+    border: 1px solid #DDE3F0;
+    border-radius: 2rem;
+}
+
+#mapid {
+    width: 100%;
+    height: 28rem;
+}
+
+.map-container footer {
+    padding: 2rem;
+
+    text-align: center;
+}
+
+/* Configurando ver rotas no mapa */
+.map-container footer a {
+   color: #0089a5; 
+   /* Tirando a linha do link */
+   text-decoration: none;
+
+   /* Escurecendo a letra */
+   font-weight: 700;
+}
+
+.map-container .leaflet-container {
+    border-bottom: 1px solid #dde3f0;
+    border-radius: 2rem;
+}
